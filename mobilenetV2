@@ -29,11 +29,11 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 # Define paths to datasets in Google Drive
-source_dataset_path = '/content/drive/MyDrive/datasets/ReplayAttack'
+source_dataset_path = '/content/drive/MyDrive/datasets/RA1'
 target_datasets_paths = {
-    'Idiap': '/content/drive/MyDrive/datasets/Idiap',
-    'ASIAFASD': '/content/drive/MyDrive/datasets/ASIAFASD',
-    'CelebA': '/content/drive/MyDrive/datasets/CelebA'
+    'Idiap': '/content/drive/MyDrive/datasets/I1',
+    'ASIAFASD': '/content/drive/MyDrive/datasets/CAF1',
+    'CelebA': '/content/drive/MyDrive/datasets/CelA1'
 }
 
 # Unzip datasets if needed (optional, depending on how your datasets are stored)
